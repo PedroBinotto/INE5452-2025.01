@@ -51,5 +51,5 @@ if [ -z "$name" ]; then
   usage
 fi
 
-echo $'#include <cstdio>\n#include <iostream>\n\nusing namespace std;\n\nint main() { return 0; }' > "${name}.cpp"
+echo $'#include <cstdio>\n#include <iostream>\n\nusing namespace std;\n\n int main() { return 0; }' > "${name}.cpp"
 touch "${name}_in.txt"
